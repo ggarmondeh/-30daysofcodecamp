@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <style>
+    h1{
+      text-align: center;
+      text-transform: uppercase;
+      color: brown;
+      text-decoration-line: underline;
+      text-decoration-color: black;
+      text-decoration-style: solid;
+      text-shadow: 2px 0px 5px black;
+    }
+    p{
+      text-indent: 50px;
+      text-align: justify;
+      letter-spacing: 3px;
+      text-indent: 50px;
+    }
+    .div{
+      border: 3px solid gray;
+      padding: 8px;
+    }
+    a{
+      text-decoration: none;
+      color:#008CBA ;
+    }
+    img{
+      opacity: 1;
+      width: 200px;
+      height: 200;
+      display: block;
+    }
+    
+    .in-line{
+      display: inline;
+      float: left;
+      width: 50%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .object-fit{
+      width: 400px;
+      height: 500px;
+      border: 3px solid blue;
+    }
+  </style>
+</head>
+<body>
+  <div class="div">
+    <h1>
+      Codemarch
+    </h1>
+    <p>
+      We help developers to understn JavaScript & React in depth. We provide Web development
+      tools & design resources <a href=""> "Click Here"</a>
+    </p>
+  </div>
+  <p style="background-color:orange !important">
+    This is Codemarch
+  </p>
+  <p style="background-color: skyblue!important">
+    We help developers to understn JavaScript & React in depth.
+  </p>
+  <p style="background-color: aqua !important;">
+    We provide Web development
+    tools & design resources
+    <img src="codemarch.jpeg" alt="">
+  </p>
+  <img style="filter: grayscale(100%);
+  width: 250px; height: 250px
+  ;" src="filter.jpeg" alt="">
+  <div class="object-fit">
+    <img class="in-line" src="codemarch.jpeg" alt="">
+    <img class="in-line" src="filter.jpeg" alt="">
+  </div>
+</body>
+</html>
